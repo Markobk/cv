@@ -1,0 +1,86 @@
+.bg-black{
+	background-color: black;
+}
+img{
+	width:100%;
+}
+.font-div{
+	width: 30%;
+}
+.row{
+	margin-top:2%;
+}
+.btn-success{
+	margin-top:1%;
+}
+
+.images img
+{
+	width:100%;
+	border-radius:5px;
+}
+.images img:hover
+{
+	transform:scale(0.9);
+	transition:transform 0.9s ease-out;
+}
+.display-4{
+	color: #227C70;
+}
+.text-head{
+	color: #88A47C;
+}
+.main-title{
+	color: #660c21;
+}
+h6{
+	color: #17a2b8;
+}
+
+.card-header{
+	background-color: #628E90;
+	color: #B73E3E;
+}
+.card-footer{
+	background-color: #EDDBC0;
+}
+.site-btn{
+	text-align: center;
+}
+
+/*Responsiveness*/
+@media only screen and(min-width: 1198px){
+	.font-div{
+		padding: 42.2px 0px!important;
+	}
+}
+@media(max-width: 992px){
+	.display-4{
+		font-size: 250%;
+	}
+	.social a{
+		font-size: 4em;
+		padding: 2rem;
+	}
+}
+@media(max-width: 768px){
+	
+	.display-4{
+		font-size: 200%;
+	}
+	
+	.social a{
+		font-size: 2.5em;
+		padding: 1.2rem;
+	}
+}
+@media(max-width: 576px){
+	
+	.display-4{
+		font-size: 160%;
+	}
+	.social a{
+		font-size: 2em;
+		padding: .7rem;
+	}
+}
